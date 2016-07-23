@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65D4B57F1D41622D00061AA3 /* Yellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4B57F1D41622D00061AA3 /* Colours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4B5831D41622D00061AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65D4B5851D41622D00061AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65D4B5861D41622D00061AA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,10 +46,10 @@
 		65D4B58E1D41622D00061AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D4B5911D41622D00061AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D4B5931D41622D00061AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D4B5981D41622D00061AA3 /* YellowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4B5981D41622D00061AA3 /* Colours.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colours.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4B59C1D41622D00061AA3 /* YellowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowTests.m; sourceTree = "<group>"; };
 		65D4B59E1D41622D00061AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D4B5A31D41622D00061AA3 /* YellowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4B5A31D41622D00061AA3 /* Colours.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colours.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4B5A71D41622D00061AA3 /* YellowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowUITests.m; sourceTree = "<group>"; };
 		65D4B5A91D41622D00061AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4B5B71D42A31100061AA3 /* ColorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTableViewController.h; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		65D4B5801D41622D00061AA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65D4B57F1D41622D00061AA3 /* Yellow.app */,
-				65D4B5981D41622D00061AA3 /* YellowTests.xctest */,
-				65D4B5A31D41622D00061AA3 /* YellowUITests.xctest */,
+				65D4B57F1D41622D00061AA3 /* Colours.app */,
+				65D4B5981D41622D00061AA3 /* Colours.xctest */,
+				65D4B5A31D41622D00061AA3 /* Colours.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D4B57E1D41622D00061AA3 /* Yellow */ = {
+		65D4B57E1D41622D00061AA3 /* Colours */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4B5AC1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "Yellow" */;
+			buildConfigurationList = 65D4B5AC1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "Colours" */;
 			buildPhases = (
 				65D4B57B1D41622D00061AA3 /* Sources */,
 				65D4B57C1D41622D00061AA3 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = Yellow;
+			name = Colours;
 			productName = Yellow;
-			productReference = 65D4B57F1D41622D00061AA3 /* Yellow.app */;
+			productReference = 65D4B57F1D41622D00061AA3 /* Colours.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65D4B5971D41622D00061AA3 /* YellowTests */ = {
+		65D4B5971D41622D00061AA3 /* ColoursTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4B5AF1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "YellowTests" */;
+			buildConfigurationList = 65D4B5AF1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "ColoursTests" */;
 			buildPhases = (
 				65D4B5941D41622D00061AA3 /* Sources */,
 				65D4B5951D41622D00061AA3 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				65D4B59A1D41622D00061AA3 /* PBXTargetDependency */,
 			);
-			name = YellowTests;
+			name = ColoursTests;
 			productName = YellowTests;
-			productReference = 65D4B5981D41622D00061AA3 /* YellowTests.xctest */;
+			productReference = 65D4B5981D41622D00061AA3 /* Colours.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D4B5A21D41622D00061AA3 /* YellowUITests */ = {
+		65D4B5A21D41622D00061AA3 /* ColoursUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4B5B21D41622D00061AA3 /* Build configuration list for PBXNativeTarget "YellowUITests" */;
+			buildConfigurationList = 65D4B5B21D41622D00061AA3 /* Build configuration list for PBXNativeTarget "ColoursUITests" */;
 			buildPhases = (
 				65D4B59F1D41622D00061AA3 /* Sources */,
 				65D4B5A01D41622D00061AA3 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				65D4B5A51D41622D00061AA3 /* PBXTargetDependency */,
 			);
-			name = YellowUITests;
+			name = ColoursUITests;
 			productName = YellowUITests;
-			productReference = 65D4B5A31D41622D00061AA3 /* YellowUITests.xctest */;
+			productReference = 65D4B5A31D41622D00061AA3 /* Colours.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65D4B57A1D41622D00061AA3 /* Build configuration list for PBXProject "Yellow" */;
+			buildConfigurationList = 65D4B57A1D41622D00061AA3 /* Build configuration list for PBXProject "Colours" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D4B57E1D41622D00061AA3 /* Yellow */,
-				65D4B5971D41622D00061AA3 /* YellowTests */,
-				65D4B5A21D41622D00061AA3 /* YellowUITests */,
+				65D4B57E1D41622D00061AA3 /* Colours */,
+				65D4B5971D41622D00061AA3 /* ColoursTests */,
+				65D4B5A21D41622D00061AA3 /* ColoursUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		65D4B59A1D41622D00061AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D4B57E1D41622D00061AA3 /* Yellow */;
+			target = 65D4B57E1D41622D00061AA3 /* Colours */;
 			targetProxy = 65D4B5991D41622D00061AA3 /* PBXContainerItemProxy */;
 		};
 		65D4B5A51D41622D00061AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D4B57E1D41622D00061AA3 /* Yellow */;
+			target = 65D4B57E1D41622D00061AA3 /* Colours */;
 			targetProxy = 65D4B5A41D41622D00061AA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,8 +426,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Yellow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Colours;
+				PRODUCT_NAME = Colours;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -440,8 +440,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Yellow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Colours;
+				PRODUCT_NAME = Colours;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -453,8 +453,8 @@
 				INFOPLIST_FILE = YellowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.YellowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yellow.app/Yellow";
+				PRODUCT_NAME = Colours;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colours.app/Colours";
 			};
 			name = Debug;
 		};
@@ -465,8 +465,8 @@
 				INFOPLIST_FILE = YellowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.YellowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yellow.app/Yellow";
+				PRODUCT_NAME = Colours;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colours.app/Colours";
 			};
 			name = Release;
 		};
@@ -476,7 +476,7 @@
 				INFOPLIST_FILE = YellowUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.YellowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colours;
 				TEST_TARGET_NAME = Yellow;
 			};
 			name = Debug;
@@ -487,7 +487,7 @@
 				INFOPLIST_FILE = YellowUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.YellowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colours;
 				TEST_TARGET_NAME = Yellow;
 			};
 			name = Release;
@@ -495,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D4B57A1D41622D00061AA3 /* Build configuration list for PBXProject "Yellow" */ = {
+		65D4B57A1D41622D00061AA3 /* Build configuration list for PBXProject "Colours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4B5AA1D41622D00061AA3 /* Debug */,
@@ -504,29 +504,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D4B5AC1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "Yellow" */ = {
+		65D4B5AC1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "Colours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4B5AD1D41622D00061AA3 /* Debug */,
 				65D4B5AE1D41622D00061AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		65D4B5AF1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "YellowTests" */ = {
+		65D4B5AF1D41622D00061AA3 /* Build configuration list for PBXNativeTarget "ColoursTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4B5B01D41622D00061AA3 /* Debug */,
 				65D4B5B11D41622D00061AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		65D4B5B21D41622D00061AA3 /* Build configuration list for PBXNativeTarget "YellowUITests" */ = {
+		65D4B5B21D41622D00061AA3 /* Build configuration list for PBXNativeTarget "ColoursUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4B5B31D41622D00061AA3 /* Debug */,
 				65D4B5B41D41622D00061AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65D4B57E1D41622D00061AA3"
-               BuildableName = "Yellow.app"
-               BlueprintName = "Yellow"
-               ReferencedContainer = "container:Yellow.xcodeproj">
+               BuildableName = "Colours.app"
+               BlueprintName = "Colours"
+               ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65D4B5971D41622D00061AA3"
-               BuildableName = "YellowTests.xctest"
-               BlueprintName = "YellowTests"
-               ReferencedContainer = "container:Yellow.xcodeproj">
+               BuildableName = "Colours.xctest"
+               BlueprintName = "ColoursTests"
+               ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65D4B5A21D41622D00061AA3"
-               BuildableName = "YellowUITests.xctest"
-               BlueprintName = "YellowUITests"
-               ReferencedContainer = "container:Yellow.xcodeproj">
+               BuildableName = "Colours.xctest"
+               BlueprintName = "ColoursUITests"
+               ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D4B57E1D41622D00061AA3"
-            BuildableName = "Yellow.app"
-            BlueprintName = "Yellow"
-            ReferencedContainer = "container:Yellow.xcodeproj">
+            BuildableName = "Colours.app"
+            BlueprintName = "Colours"
+            ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D4B57E1D41622D00061AA3"
-            BuildableName = "Yellow.app"
-            BlueprintName = "Yellow"
-            ReferencedContainer = "container:Yellow.xcodeproj">
+            BuildableName = "Colours.app"
+            BlueprintName = "Colours"
+            ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D4B57E1D41622D00061AA3"
-            BuildableName = "Yellow.app"
-            BlueprintName = "Yellow"
-            ReferencedContainer = "container:Yellow.xcodeproj">
+            BuildableName = "Colours.app"
+            BlueprintName = "Colours"
+            ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

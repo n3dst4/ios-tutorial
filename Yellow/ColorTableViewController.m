@@ -23,11 +23,19 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _colorList = @[
-                   @[@"Snow", [UIColor whiteColor]],
-                   @[@"Banana", [UIColor yellowColor]],
-                   @[@"Blood", [UIColor redColor]],
-                   @[@"Berries", [UIColor colorWithRed:1.0 green:0.5 blue:0.5 alpha:1.0]]
+                   @[@"White", [UIColor whiteColor]],
+                   @[@"Yellow", [UIColor yellowColor]],
+                   @[@"Red", [UIColor redColor]],
+                   @[@"Pink", [UIColor colorWithRed:1.0 green:0.5 blue:0.5 alpha:1.0]],
+                   @[@"Black", [UIColor blackColor]],
+                   @[@"Blue", [UIColor colorWithRed:0.3 green:0.4 blue:0.9 alpha:1.0]],
+                   @[@"Purple", [UIColor purpleColor]],
+                   @[@"Beige", [UIColor colorWithRed:0.8 green:0.75 blue:0.5 alpha:1.0]],
+                   @[@"Brown", [UIColor colorWithRed:0.5 green:0.4 blue:0 alpha:1.0]],
                 ];
+    
+    self.title = @"Colours";
+    
     
 }
 
@@ -62,7 +70,13 @@
 
 - (void)      tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    [self.view setBackgroundColor:_colorList[indexPath.row][1]];
+    
+    //[self.view setBackgroundColor:_colorList[indexPath.row][1]];
+    UIViewController *newViewController = [[UIViewController alloc] init];
+    newViewController.view.backgroundColor = _colorList[indexPath.row][1];
+    newViewController.title = _colorList[indexPath.row][0];
+    [self.navigationController pushViewController:newViewController animated:YES];
+    
 }
 
 

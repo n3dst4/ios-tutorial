@@ -25,7 +25,11 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:viewRect];
     
     //self.viewController = [[ViewController alloc] init];
-    self.viewController = [[ColorTableViewController alloc] init];
+    ColorTableViewController *colorTableViewController = [[ColorTableViewController alloc] init];
+    self.viewController = [[UINavigationController alloc] initWithRootViewController:colorTableViewController];
+    self.viewController.title = @"Colours";
+    //self.viewController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
