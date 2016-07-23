@@ -84,7 +84,7 @@
 		65D4B5761D41622D00061AA3 = {
 			isa = PBXGroup;
 			children = (
-				65D4B5811D41622D00061AA3 /* Yellow */,
+				65D4B5811D41622D00061AA3 /* Colours */,
 				65D4B59B1D41622D00061AA3 /* YellowTests */,
 				65D4B5A61D41622D00061AA3 /* YellowUITests */,
 				65D4B5801D41622D00061AA3 /* Products */,
@@ -101,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65D4B5811D41622D00061AA3 /* Yellow */ = {
+		65D4B5811D41622D00061AA3 /* Colours */ = {
 			isa = PBXGroup;
 			children = (
 				65D4B5851D41622D00061AA3 /* AppDelegate.h */,
@@ -116,6 +116,7 @@
 				65D4B5B71D42A31100061AA3 /* ColorTableViewController.h */,
 				65D4B5B81D42A31100061AA3 /* ColorTableViewController.m */,
 			);
+			name = Colours;
 			path = Yellow;
 			sourceTree = "<group>";
 		};
