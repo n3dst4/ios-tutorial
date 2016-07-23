@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "ColorTableViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -15,8 +18,18 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)          application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    //self.viewController = [[ViewController alloc] init];
+    self.viewController = [[ColorTableViewController alloc] init];
+
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
+    NSLog(@"View frame is %f by %f", viewRect.size.width, viewRect.size.height);
     return YES;
 }
 

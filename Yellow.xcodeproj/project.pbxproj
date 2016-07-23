@@ -15,6 +15,7 @@
 		65D4B5921D41622D00061AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4B5901D41622D00061AA3 /* LaunchScreen.storyboard */; };
 		65D4B59D1D41622D00061AA3 /* YellowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4B59C1D41622D00061AA3 /* YellowTests.m */; };
 		65D4B5A81D41622D00061AA3 /* YellowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4B5A71D41622D00061AA3 /* YellowUITests.m */; };
+		65D4B5B91D42A31100061AA3 /* ColorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4B5B81D42A31100061AA3 /* ColorTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		65D4B5A31D41622D00061AA3 /* YellowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4B5A71D41622D00061AA3 /* YellowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowUITests.m; sourceTree = "<group>"; };
 		65D4B5A91D41622D00061AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D4B5B71D42A31100061AA3 /* ColorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTableViewController.h; sourceTree = "<group>"; };
+		65D4B5B81D42A31100061AA3 /* ColorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				65D4B5901D41622D00061AA3 /* LaunchScreen.storyboard */,
 				65D4B5931D41622D00061AA3 /* Info.plist */,
 				65D4B5821D41622D00061AA3 /* Supporting Files */,
+				65D4B5B71D42A31100061AA3 /* ColorTableViewController.h */,
+				65D4B5B81D42A31100061AA3 /* ColorTableViewController.m */,
 			);
 			path = Yellow;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					65D4B57E1D41622D00061AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HC5LSEPZM9;
 					};
 					65D4B5971D41622D00061AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +279,7 @@
 				65D4B58A1D41622D00061AA3 /* ViewController.m in Sources */,
 				65D4B5871D41622D00061AA3 /* AppDelegate.m in Sources */,
 				65D4B5841D41622D00061AA3 /* main.m in Sources */,
+				65D4B5B91D42A31100061AA3 /* ColorTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Yellow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumphammer.Yellow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

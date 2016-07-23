@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ColorTableViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //CGRect viewRect = [[UIScreen mainScreen] bounds];
+
+    //UIView *colorView = [[UIView alloc] initWithFrame:viewRect];
+    //self.view = colorView;
+    //colorView.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *myButt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    myButt.frame = CGRectMake(100, 100, 100, 50);
+    [myButt setTitle:@"Helloes" forState:UIControlStateNormal];
+    
+    UIViewController *tableViewController = [[ColorTableViewController alloc] init];
+    
+    //[self.view addSubview:tableViewController];
+
 }
 
 - (void)didReceiveMemoryWarning {
